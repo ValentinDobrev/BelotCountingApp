@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondWindowFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/player_image" />
+        <TextView
+            android:id="@+id/playerInfo_TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PLAYER INFO"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:textColor="#FFFFFF" />
+        <TextView
+            android:id="@+id/playerName_TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Type player name:"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:textColor="#FFFFFF" />
+        <EditText
+            android:id="@+id/playerName_EditText"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/playerName_TextView"
+            android:layout_centerHorizontal="true"
+            android:textColor="#FFFFFF" />
+        <Button
+            android:id="@+id/createPlayer_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CREATE PLAYER"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="400dp"/>
+
+    </RelativeLayout>
+
+</FrameLayout>

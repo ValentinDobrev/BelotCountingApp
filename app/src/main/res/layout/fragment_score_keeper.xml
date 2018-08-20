@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScoreKeeperFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:id="@+id/Button1"
+            android:layout_width="190dp"
+            android:layout_height="50dp"
+            android:text="write result"
+            android:layout_marginTop="0dp"/>
+        <EditText
+            android:id="@+id/EditText_F1"
+            android:layout_width="190dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/Button1"/>
+        <ListView
+            android:id="@+id/List_View_Team1"
+            android:layout_width="190dp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/EditText_F1"/>
+        <Button
+            android:id="@+id/Button2"
+            android:layout_width="195dp"
+            android:layout_height="50dp"
+            android:text="write result"
+            android:layout_marginStart="190dp"
+            android:layout_marginTop="0dp"/>
+        <EditText
+            android:id="@+id/EditText_F2"
+            android:layout_width="195dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="190dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/Button2" />
+        <ListView
+            android:id="@+id/List_View_Team2"
+            android:layout_width="195dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="190dp"
+            android:layout_below="@+id/EditText_F2" />
+
+    </RelativeLayout>
+
+</FrameLayout>

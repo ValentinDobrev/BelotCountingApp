@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "978096389353",
+    "firebase_url": "https://belotcounterapp.firebaseio.com",
+    "project_id": "belotcounterapp",
+    "storage_bucket": "belotcounterapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:978096389353:android:34a4ccd5e3077c92",
+        "android_client_info": {
+          "package_name": "com.example.dobrev.belotcountingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "978096389353-3tlhoq2e53n021t0j128c297oel9pddg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dobrev.belotcountingapp",
+            "certificate_hash": "c940dd40ab9f2bf077796689dc5835a8e5d79c33"
+          }
+        },
+        {
+          "client_id": "978096389353-ht4qtuv8vu7t0cp6dk4np5jjhcq4rb2i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5eSQm_ny_G5tFAj5KBSKw-uDT6W0fS1Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "978096389353-ht4qtuv8vu7t0cp6dk4np5jjhcq4rb2i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:978096389353:android:7ce7a04f33976a52",
+        "android_client_info": {
+          "package_name": "com.example.dobrev.testproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "978096389353-55stsnq34pqg4tfd0fq0kqqms2g3amjv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dobrev.testproject",
+            "certificate_hash": "c940dd40ab9f2bf077796689dc5835a8e5d79c33"
+          }
+        },
+        {
+          "client_id": "978096389353-ht4qtuv8vu7t0cp6dk4np5jjhcq4rb2i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5eSQm_ny_G5tFAj5KBSKw-uDT6W0fS1Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "978096389353-ht4qtuv8vu7t0cp6dk4np5jjhcq4rb2i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
